@@ -177,6 +177,9 @@ func (jr *jpegReader) nextMarker() bool {
 			jr.marker = markerType(jr.buf[1])
 			return true
 		}
+        // else...
+        jr.pos++
+        jr.err = jr.discard(2)
 	}
 	return false
 }
