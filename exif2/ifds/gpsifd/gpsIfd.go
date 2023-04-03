@@ -1,7 +1,7 @@
 // Package gpsifd provides types for "RootIfd/GPSIfd"
 package gpsifd
 
-import "github.com/evanoberholster/imagemeta/exif2/tag"
+import "github.com/smurfless1/imagemeta/exif2/tag"
 
 // TagString returns the string representation of a tag.ID
 func TagString(id tag.ID) string {

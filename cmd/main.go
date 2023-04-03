@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/evanoberholster/imagemeta"
-	"github.com/evanoberholster/imagemeta/exif2"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta"
+	"github.com/smurfless1/imagemeta/exif2"
 )
 
 func init() {

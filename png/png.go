@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/meta/utils"
 )
 
 func ScanPngHeader(r io.ReadSeeker) (header meta.ExifHeader, err error) {

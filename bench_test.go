@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/evanoberholster/imagemeta/exif2"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/isobmff"
-	"github.com/evanoberholster/imagemeta/tiff"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta/exif2"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/isobmff"
+	"github.com/smurfless1/imagemeta/tiff"
 )
 
 var (

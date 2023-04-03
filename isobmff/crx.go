@@ -3,10 +3,10 @@ package isobmff
 import (
 	"io"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
 )
 
 // CrxMoovBox is a Canon Raw Moov Box

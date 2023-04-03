@@ -6,7 +6,7 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/evanoberholster/imagemeta/imagehash/transforms"
+	"github.com/smurfless1/imagemeta/imagehash/transforms"
 )
 
 const (

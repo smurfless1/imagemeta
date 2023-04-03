@@ -1,9 +1,9 @@
 package isobmff
 
 import (
-	"github.com/evanoberholster/imagemeta/meta"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta/meta"
 )
 
 // box is an ISOBMFF box

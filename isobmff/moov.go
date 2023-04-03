@@ -3,11 +3,11 @@ package isobmff
 import (
 	"fmt"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/meta/utils"
 	"github.com/pkg/errors"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/meta/utils"
 )
 
 func (r *Reader) ReadMetadata() (err error) {

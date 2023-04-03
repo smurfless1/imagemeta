@@ -13,9 +13,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/meta/utils"
 )
 
 // Errors
@@ -177,9 +177,9 @@ func (jr *jpegReader) nextMarker() bool {
 			jr.marker = markerType(jr.buf[1])
 			return true
 		}
-        // else...
-        jr.pos++
-        jr.err = jr.discard(2)
+		// else...
+		jr.pos++
+		jr.err = jr.discard(2)
 	}
 	return false
 }

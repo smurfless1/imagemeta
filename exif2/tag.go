@@ -3,11 +3,11 @@ package exif2
 import (
 	"fmt"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/exififd"
-	"github.com/evanoberholster/imagemeta/exif2/tag"
-	"github.com/evanoberholster/imagemeta/meta/utils"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/exif2/ifds/exififd"
+	"github.com/smurfless1/imagemeta/exif2/tag"
+	"github.com/smurfless1/imagemeta/meta/utils"
 )
 
 // Tag is an Exif Tag (16 bytes)

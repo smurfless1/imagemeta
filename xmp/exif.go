@@ -3,8 +3,8 @@ package xmp
 import (
 	"time"
 
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/xmp/xmpns"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/xmp/xmpns"
 )
 
 // Flash represents exif:Flash

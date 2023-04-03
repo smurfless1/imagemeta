@@ -8,14 +8,14 @@ import (
 	"io"
 	"sync"
 
-	"github.com/evanoberholster/imagemeta/exif2"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/isobmff"
-	"github.com/evanoberholster/imagemeta/jpeg"
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/png"
-	"github.com/evanoberholster/imagemeta/tiff"
 	"github.com/pkg/errors"
+	"github.com/smurfless1/imagemeta/exif2"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/isobmff"
+	"github.com/smurfless1/imagemeta/jpeg"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/png"
+	"github.com/smurfless1/imagemeta/tiff"
 )
 
 // Errors

@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/evanoberholster/imagemeta/xmp/xmpns"
+	"github.com/smurfless1/imagemeta/xmp/xmpns"
 )
 
 const (

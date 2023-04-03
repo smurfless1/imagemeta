@@ -3,9 +3,9 @@ package meta
 import (
 	"testing"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta/utils"
 	"github.com/stretchr/testify/assert"
 )
 

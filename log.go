@@ -4,11 +4,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/evanoberholster/imagemeta/exif2"
-	"github.com/evanoberholster/imagemeta/isobmff"
-	"github.com/evanoberholster/imagemeta/jpeg"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	"github.com/smurfless1/imagemeta/exif2"
+	"github.com/smurfless1/imagemeta/isobmff"
+	"github.com/smurfless1/imagemeta/jpeg"
 )
 
 var (

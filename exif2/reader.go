@@ -3,15 +3,15 @@ package exif2
 import (
 	"io"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/exififd"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/mknote/nikon"
-	"github.com/evanoberholster/imagemeta/exif2/tag"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/meta/utils"
-	"github.com/evanoberholster/imagemeta/tiff"
 	"github.com/rs/zerolog"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/exif2/ifds/exififd"
+	"github.com/smurfless1/imagemeta/exif2/ifds/mknote/nikon"
+	"github.com/smurfless1/imagemeta/exif2/tag"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/tiff"
 )
 
 func Parse(r io.ReadSeeker) (Exif, error) {

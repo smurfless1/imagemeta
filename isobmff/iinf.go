@@ -1,8 +1,8 @@
 package isobmff
 
 import (
-	"github.com/evanoberholster/imagemeta/imagetype"
 	"github.com/pkg/errors"
+	"github.com/smurfless1/imagemeta/imagetype"
 )
 
 func (r *Reader) readIinf(b *box) (err error) {

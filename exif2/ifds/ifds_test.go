@@ -3,11 +3,11 @@ package ifds
 import (
 	"testing"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds/exififd"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/gpsifd"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/mknote/canon"
-	"github.com/evanoberholster/imagemeta/exif2/tag"
-	"github.com/evanoberholster/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/exif2/ifds/exififd"
+	"github.com/smurfless1/imagemeta/exif2/ifds/gpsifd"
+	"github.com/smurfless1/imagemeta/exif2/ifds/mknote/canon"
+	"github.com/smurfless1/imagemeta/exif2/tag"
+	"github.com/smurfless1/imagemeta/meta/utils"
 )
 
 func TestIfdString(t *testing.T) {

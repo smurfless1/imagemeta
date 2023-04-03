@@ -7,8 +7,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/evanoberholster/imagemeta/xmp/xmpns"
 	"github.com/pkg/errors"
+	"github.com/smurfless1/imagemeta/xmp/xmpns"
 	"github.com/stretchr/testify/assert"
 )
 

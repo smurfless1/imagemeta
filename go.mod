@@ -1,4 +1,4 @@
-module github.com/evanoberholster/imagemeta
+module github.com/smurfless1/imagemeta
 
 go 1.20
 

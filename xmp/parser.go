@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/evanoberholster/imagemeta/meta"
-	"github.com/evanoberholster/imagemeta/xmp/xmpns"
+	"github.com/smurfless1/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/xmp/xmpns"
 )
 
 func (xmp *XMP) parser(p property) (err error) {

@@ -4,14 +4,14 @@ import (
 	"math"
 	"time"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/exififd"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/gpsifd"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/mknote/apple"
-	"github.com/evanoberholster/imagemeta/exif2/ifds/mknote/canon"
-	"github.com/evanoberholster/imagemeta/exif2/tag"
-	"github.com/evanoberholster/imagemeta/imagetype"
-	"github.com/evanoberholster/imagemeta/meta"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/exif2/ifds/exififd"
+	"github.com/smurfless1/imagemeta/exif2/ifds/gpsifd"
+	"github.com/smurfless1/imagemeta/exif2/ifds/mknote/apple"
+	"github.com/smurfless1/imagemeta/exif2/ifds/mknote/canon"
+	"github.com/smurfless1/imagemeta/exif2/tag"
+	"github.com/smurfless1/imagemeta/imagetype"
+	"github.com/smurfless1/imagemeta/meta"
 )
 
 func (ir *ifdReader) parseTag(t Tag) {

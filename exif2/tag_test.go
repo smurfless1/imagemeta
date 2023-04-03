@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/evanoberholster/imagemeta/exif2/ifds"
-	"github.com/evanoberholster/imagemeta/exif2/tag"
-	"github.com/evanoberholster/imagemeta/meta/utils"
+	"github.com/smurfless1/imagemeta/exif2/ifds"
+	"github.com/smurfless1/imagemeta/exif2/tag"
+	"github.com/smurfless1/imagemeta/meta/utils"
 	"github.com/stretchr/testify/assert"
 )
 

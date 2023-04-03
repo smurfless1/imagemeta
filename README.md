@@ -10,7 +10,7 @@ Image Metadata (Exif and XMP) extraction for JPEG, HEIC, AVIF, TIFF, and Camera 
 
 ## Documentation
 
-See [Documentation](https://godoc.org/github.com/evanoberholster/imagemeta) for more information.
+See [Documentation](https://godoc.org/github.com/smurfless1/imagemeta) for more information.
 
 ## Example Usage
 
@@ -23,7 +23,7 @@ Example usage:
     	"fmt"
     	"os"
 
-    	"github.com/evanoberholster/imagemeta"
+    	"github.com/smurfless1/imagemeta"
     )
 
 	f, err := os.Open("image.jpg")
@@ -40,7 +40,7 @@ Example usage:
 ```
 
 ## Imagehash
- Zero allocation PerceptualHash algorithm (64Bit and 256Bit) [github.com/evanoberholster/imagemeta/imagehash](github.com/evanoberholster/imagemeta/imagehash). Adapted from [https://github.com/corona10/goimagehash](https://github.com/corona10/goimagehash). Image will need to be resized to 64x64 prior to image hashing.
+ Zero allocation PerceptualHash algorithm (64Bit and 256Bit) [github.com/smurfless1/imagemeta/imagehash](github.com/smurfless1/imagemeta/imagehash). Adapted from [https://github.com/corona10/goimagehash](https://github.com/corona10/goimagehash). Image will need to be resized to 64x64 prior to image hashing.
 
 ## Contributing
 
@@ -53,7 +53,7 @@ To run your own benchmarks see bench_test.go
 
 ## Imagetype Identification
 
-Images can be identified with: "github.com/evanoberholster/imagemeta/imagetype" package.
+Images can be identified with: "github.com/smurfless1/imagemeta/imagetype" package.
 
 ## TODO
 
@@ -92,11 +92,11 @@ Copyright (c) 2020-2023, Evan Oberholster & Contributors
 
 [License-Url]: https://opensource.org/licenses/MIT
 [License-Image]: https://img.shields.io/badge/License-MIT-blue.svg?maxAge=2592000
-[Godoc-Url]: https://godoc.org/github.com/evanoberholster/imagemeta
-[Godoc-Image]: https://godoc.org/github.com/evanoberholster/imagemeta?status.svg
-[ReportCard-Url]: https://goreportcard.com/report/github.com/evanoberholster/imagemeta
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/evanoberholster/imagemeta
-[Coverage-Image]: https://coveralls.io/repos/github/evanoberholster/imagemeta/badge.svg?branch=master
-[Coverage-Url]: https://coveralls.io/github/evanoberholster/imagemeta?branch=master
-[Build-Status-Url]: https://github.com/evanoberholster/imagemeta/actions?query=branch%3Amaster
-[Build-Status-Image]: https://github.com/evanoberholster/imagemeta/workflows/Build/badge.svg?branch=master
+[Godoc-Url]: https://godoc.org/github.com/smurfless1/imagemeta
+[Godoc-Image]: https://godoc.org/github.com/smurfless1/imagemeta?status.svg
+[ReportCard-Url]: https://goreportcard.com/report/github.com/smurfless1/imagemeta
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/smurfless1/imagemeta
+[Coverage-Image]: https://coveralls.io/repos/github/smurfless1/imagemeta/badge.svg?branch=master
+[Coverage-Url]: https://coveralls.io/github/smurfless1/imagemeta?branch=master
+[Build-Status-Url]: https://github.com/smurfless1/imagemeta/actions?query=branch%3Amaster
+[Build-Status-Image]: https://github.com/smurfless1/imagemeta/workflows/Build/badge.svg?branch=master

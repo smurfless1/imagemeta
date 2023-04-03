@@ -5,7 +5,7 @@ import (
 	"image"
 	"sync"
 
-	"github.com/evanoberholster/imagemeta/imagehash/transforms32"
+	"github.com/smurfless1/imagemeta/imagehash/transforms32"
 )
 
 // NewPHash64Alt is a Perception Hash function returns a hash computation of phash.
